@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    max-width: 100vw;
+    min-height: 100vh;
+    font-size: 16px;
+    background-image: url(./images/bg-simplify-section-mobile.svg);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 7rem;
+    background-position-y: -3rem;
+}
+
+p {
+    color: hsl(227, 12%, 61%);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+
+
+
+.btn-pry {
+    padding: .8rem 1.5rem;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 2.5rem;
+}
+
+.nav-bar-open:hover {
+    cursor: pointer;
+}
+
+.nav-bar-close {
+    display: none;
+}
+
+.nav-bar-close:hover {
+    cursor: pointer;
+}
+
+header {
+    background-color: hsl(0, 0%, 98%, 90%);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+header>ul {
+    display: none;
+    position: absolute;
+    width: 90vw;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 3;
+    padding: 2rem 0;
+    top: 20vh;
+    left: 5%;
+    background-color: white;
+    border-radius: .5rem;
+    filter: drop-shadow(0px 20px 100px #000);
+}
+
+header>ul>li>a {
+    color: hsl(233, 12%, 13%);
+    font-weight: bolder;
+}
+
+.head-btn {
+    display: none;
+}
+
+.section-one {
+    margin-top: 8rem;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position-y: 15rem;
+    background-position-x: 10rem;
+    padding: 0 2rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-one h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-one p {
+    margin-bottom: 1.5rem;
+}
+
+.section-one>img {
+    width: 80vw;
+    margin-bottom: 1.5rem;
+}
+
+.section-two {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#head {
+    text-align: center;
+    width: 80vw;
+}
+
+#head h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-two article {
+    margin-left: .8rem;
+    margin-bottom: .8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-two article strong {
+    z-index: 100;
+}
+
+.section-two article h4 {
+    padding: .7rem 0rem .7rem 2.5rem;
+    margin-left: -1.5rem;
+    color: hsl(233, 12%, 13%);
+    background-color: hsl(13, 100%, 96%);
+    border-top-left-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+}
+
+.section-two article p {
+    position: relative;
+    left: 0;
+    margin: 1rem 1rem 1rem -3.8rem;
+}
+
+.section-three {
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three article {
+    position: relative;
+    margin: auto;
+    width: 90vw;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: .8rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    vertical-align: middle;
+}
+
+.section-three article img {
+    width: 20vw;
+    height: 20vw;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+.section-three article p {
+    margin-top: 1rem;
+    padding: 1rem 2rem 3rem 2rem;
+}
+
+.section-four {
+    width: 100vw;
+    text-align: center;
+    padding: 6rem 2rem;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+}
+
+.section-four h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.btn-alt {
+    background-color: white;
+    color: hsl(12, 88%, 59%);
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: hsl(233, 12%, 13%);
+    margin-top: -5rem;
+}
+
+form {
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    margin-top: 2rem;
+}
+
+form input {
+    width: 65vw;
+    padding: .8rem 1.5rem;
+    color: hsl(233, 12%, 13%);
+    border-radius: 2.5rem;
+    outline: none;
+    border: none;
+}
+
+form button {
+    border: none;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+.footer-ul {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 2;
+}
+
+.footer-ul a {
+    color: hsl(0, 0%, 98%);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    color: hsl(227, 12%, 61%);
+}
+
+.authur {
+    text-align: center;
+    padding: 0 1rem 1.5rem 1rem;
+    color: hsl(227, 12%, 61%);
+}
+
+.authur a {
+    color: hsl(227, 12%, 61%);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid hsl(12, 88%, 59%);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.active,
+.dot:hover {
+    border: 1px solid hsl(0, 0%, 98%);
+    background-color: hsl(12, 88%, 59%);
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out;
+}
+
+.ul-bar-one {
+    animation: ul-bar-one 1s ease-in-out;
+}
+
+.ul-bar-two {
+    animation: ul-bar-two 1s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes ul-bar-one {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes ul-bar-two {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url(./images/bg-simplify-section-desktop.svg);
+    }
+    .nav-bar-close,
+    .nav-bar-open {
+        display: none;
+    }
+
+    header {
+        justify-content: space-evenly;
+    }
+
+    header>ul {
+        display: unset;
+        position: unset;
+        width: unset;
+        font-weight: bolder;
+        text-align: center;
+        line-height: unset;
+        padding: unset;
+        top: unset;
+        background-color: unset;
+        border-radius: unset;
+    }
+
+    header ul li {
+        display: inline-block;
+        padding-right: 1rem;
+    }
+
+    header ul li:last-of-type {
+        padding-right: unset;
+    }
+
+    header>ul>li>a {
+        color: hsl(233, 12%, 13%);
+        font-weight: bolder;
+    }
+
+    .head-btn {
+        display: unset;
+    }
+
+    .section-one {
+        display: grid;
+        background-image: unset;
+        grid-template-columns: repeat(2, 45vw);
+        align-items: flex-start;
+        gap: 2rem;
+        margin-top: 8rem;
+        padding: unset;
+        width: 90vw;
+    }
+
+    .section-one img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 45vw;
+    }
+
+    .section-one div {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+    }
+
+    .section-one div h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-one div p {
+        font-size: 1rem;
+        margin: 2rem 0;
+    }
+
+    .section-two {
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #head {
+        width: 40vw;
+        text-align: left;
+    }
+
+    .aside {
+        width: 45vw;
+    }
+
+    .section-two article {
+        margin: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .section-two article strong {
+        z-index: unset;
+    }
+
+    .section-two article h4 {
+        margin-top: .5rem;
+        padding: unset;
+        margin-bottom: 1rem;
+        margin-left: unset;
+        color: hsl(233, 12%, 13%);
+        background-color: unset;
+        border: unset;
+    }
+
+    .section-two article p {
+        position: unset;
+        left: 0;
+        margin: 0 0 1rem 0;
+    }
+
+    .section-two article div {
+        margin-left: 1rem;
+    }
+
+    .slideshow-container {
+        width: 100vw;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        stop-color: blue;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .section-three article {
+        min-width: 40vw;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        vertical-align: unset;
+    }
+
+    .section-three article img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .section-four {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+
+    }
+
+    .section-four h2 {
+        width: 50vw;
+        font-size: 2.5rem;
+        margin-bottom: unset;
+        text-align: left;
+    }
+
+    footer {
+        padding: 4rem 2rem 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(4, 22.5vw);
+        align-items: flex-start;
+        gap: .5rem;
+    }
+
+    form {
+        width: 22.5vw;
+        gap: .5rem;
+        margin-top: unset;
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+    form input {
+        width: 15.5vw;
+    }
+
+    .footer-ul {
+        width: 45vw;
+        align-items: flex-start;
+        grid-column: 2/4;
+        grid-row: 1/3;
+
+    }
+
+    .socials {
+        width: 22.5vw;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .footer-logo {
+        width: 22.5vw;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .copyright {
+        width: 22.5vw;
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    .authur {
+        width: 90vw;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
